@@ -11,17 +11,22 @@ ans: It is a executable package of software that contains everyting needed to ru
 ``` dockerfile
 docker images
 ```
-2. Running docker image in background
+2. Running docker image in background (I can not see the output on my screen)
 ```dockerfile
 docker run -d image_name
 ```
 note: d means detached mode
-3. Download image form docker hub
+3.  Running for certain time
+
+```dockerfile
+docker run image_name sleep 5
+```
+4. Download image form docker hub
 
 ```
 docker pull image_name
 ```
-4. remove an imges
+5. remove an image
 ```
 docker rmi image_name
 ```
@@ -34,7 +39,7 @@ note: make sure not container running on this image.
 Docker defines seven states for a container: created, restarting, running, removing, paused, exited, and dead.
 A container is running while any processing is executed. if no processes is running on container then it automatically stoped. 
 
-1. Start a container attach mode
+1. Start a container attach mode (run in foreground: I can see the output on my screen)
 ```dockerfile
 docker run container_name
 ```
@@ -42,28 +47,35 @@ docker run container_name
 ```dockerfile
 docker ps
 ```
-3. To view all container running or not 
+4. To view all container running or not 
+
 ```dockerfile
 docker ps -a
 ```
-4. Pause/unpause  a running  container
+5. Pause/unpause  a running  container
+
 ```dockerfile
 docker pause <container_id>
 docker unpause <container_id>
 ```
-5. Stop/Start of running a container
+6. Stop/Start of running a container
+
 ```dockerfile
 docker stop <container_id>
 docker start <container_id>
 ```
-6. Remove a container
+7. Remove a container
+
 ```dockerfile
 docker container rm <container_id>
 ```
 
-4. To stop all the container
+8. To stop all the container
 
 ```dockerfile
 docker stop image_name
 ```
-
+9. To attaach the detach file 
+```
+docker attach frist_few_word_of_container_id
+```
