@@ -1,14 +1,19 @@
-<h1 align="center">Docker Installation</h1>
+<h1 align="center">Docker Installation</h1> <br>
+
 ## requirements :
 1. OS must have virtualization enabled. (check task manger)
 2. 64 os and processor and 8 GB ram
+
 ## installation 
 download docker from following link:
-[Docker for Windows](https://docs.docker.com/desktop/install/windows-install/)
-conform check mark on WSL 
-install docker exe
-restart pc
+
+[Docker for Windows](https://docs.docker.com/desktop/install/windows-install/) 
+conform check mark on WSL  
+install docker exe 
+restart pc 
+
 ## Now setup WSL 2 
+
 ### Step 1 - Enable the Windows Subsystem for Linux
 open powershell and pest the code
 ```
