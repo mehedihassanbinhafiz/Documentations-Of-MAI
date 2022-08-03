@@ -79,3 +79,15 @@ docker stop image_name
 ```
 docker attach frist_few_word_of_container_id
 ```
+
+## cleaning the multiple image and continer( cleaning up the workspace)
+
+1. Remove all running container 
+```
+docker container rm -f $(docker contaner ls -aq)
+```
+note -f for force -a for all -q for imge or container ids
+2. Remove the images
+```
+docker image rm -f $(docker image ls -aq)
+```
