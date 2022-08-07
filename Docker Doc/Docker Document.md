@@ -2,7 +2,7 @@
 1. What is docker image?
 ans: docker image is a template that contains the program or application and all the dependencies requireds to run on docker. it is comparable to  Virtual Machine. One image can create multiple containers. 
 2. What is the continier in docker?
-ans: It is a executable package of software that contains everyting needed to run an application: runtime, system tools, libraries and setting. Actually is it a instance of image. like OOP in programming. 
+ans: It is a executable package of software that contains everything needed to run an application: runtime, system tools, libraries and setting. Actually is it a instance of image. like OOP in programming. 
 
 <h1 align="center"> Documentation </h1>
 
