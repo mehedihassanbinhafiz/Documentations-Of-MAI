@@ -1,4 +1,4 @@
-<h1 align = 'center'>Docker architecture<h1> <br>
+<h1 align="center">Docker Architecture</h1> <br>
 
 
 ## The main difference of Docker and VM
@@ -41,10 +41,10 @@ Private registry - is used to share image within the enerprise.
 ## Docker Objects
 
 1. Docker Image
-  Docker images are the read-only binary templates used to create Docker Containers. 
+    Docker images are the read-only binary templates used to create Docker Containers. 
 
 2. Docker Container
-  It is a executable package of software that contains everything needed to run an application: runtime, system tools, libraries and setting. Actually is it a instance of image. like OOP in programming.
+    It is a executable package of software that contains everything needed to run an application: runtime, system tools, libraries and setting. Actually is it a instance of image. like OOP in programming.
 
 3. Docker Networking
 
