@@ -1,6 +1,6 @@
 ## some questions: 
 1. What is docker image?
-ans: docker image is a template that contains the program or application and all the dependencies requireds to run on docker. it is comparable to  Virtual Machine. One image can create multiple containers.
+ans: docker image is a template that contains the program or application and all the dependencies required to run on docker. it is comparable to  Virtual Machine. One image can create multiple containers.
 
 <h1 align="center"> Documentation </h1>
 

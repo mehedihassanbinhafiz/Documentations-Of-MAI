@@ -29,6 +29,14 @@ docker client uses these command:
 docker build
 docker pull
 docker run
+##building custom image
+docker build -t image_name . #this . spesifies that docker image will be created where docker command run
+## pushing docker image into docker hub
+docker login
+docker tag image_name username_of_docker_hub/image_name
+docker push username_of_docker_hub/image_name
+## username_of_docker_hub/image_name this is images name. docker push work only username_of_docker_hub/image_name this strucure images name
+
 ```
 2. Docker Host
 Docker Host is used to provide an environment to execute and run applications. It contains the docker daemon, images, containers, networks, and storage.

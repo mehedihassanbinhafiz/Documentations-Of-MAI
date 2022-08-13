@@ -42,7 +42,7 @@ docker unpause <container_id>
 docker stop <container_id>
 docker start <container_id>
 ```
-7. Remove a container
+7. Remove a container ( at first stop it)
 
 ```dockerfile
 docker container rm <container_id>
@@ -73,3 +73,11 @@ note -f for force -a for all -q for imge or container ids
 ```
 docker image rm -f $(docker image ls -aq)
 ```
+3. run docker container in interactive mode 
+
+```
+docker exec -it container_id bash
+```
+
+4. exit docker interactive mode
+    ctrl + z
