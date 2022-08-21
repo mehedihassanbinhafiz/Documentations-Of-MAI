@@ -56,3 +56,4 @@ It is used to specify the path of the command to be executed at run time.
 ###  LABEL
 It is used to add labels to the docker image.
 
+## Building image from Dockerfile

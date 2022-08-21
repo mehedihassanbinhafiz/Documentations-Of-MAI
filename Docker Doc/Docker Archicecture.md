@@ -27,7 +27,8 @@ Docker client uses commands and rest apis to communicate with docker daemon. Whe
 docker client uses these command:
 ``` dockerfile
 docker build
-docker pull
+## download docker image from docker hub
+docker pull image_name:version (Tag)
 docker run
 ##building custom image
 docker build -t image_name . #this . spesifies that docker image will be created where docker command run
