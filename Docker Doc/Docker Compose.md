@@ -9,6 +9,7 @@ It allows to deploy, combine, and configure multiple docker containers at the sa
 2. docker-compose version 
 ```
 docker-compose -version
+docker-compose version
 ```
 2. Create docker compose
 The name of the file must be
@@ -38,6 +39,12 @@ docker-compose up -d
 6. compose stop
 ```
 docker-compose down
+```
+### Scale Down Services
+--scale: it set number of container for a service
+format: docker-compose up -d --scale service_name=number_you want to run continer
+```
+docker-compose up -d --scale database=4
 ```
 
 
