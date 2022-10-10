@@ -30,3 +30,31 @@ Or jupyter-notebook
 15.	enter password then click maximize button. 
 16.	Enjoy full screen
 
+## creating virtualenv in ubuntu
+1. sudo pip3 install virtualenv 
+2. virtualenv venv_name
+3. source venv_name/bin/activate
+
+## accessign hosting folders
+1. go to setting
+2. click shared folders
+3. click add share button
+4. click dropdown box of file path
+5. select others 
+6. then select the host pc folder
+7. check auto-mount
+8. click ok
+9. start the linux os
+10. open terminal
+11. type whoami
+12. copy user name
+13. type sudo adduser username vboxsf
+14. restart the ubuntu
+
+## Register and setting up virtualenv 
+
+1. python -m ipykernel install
+2. ipython kernel install --name venv_name --user
+
+## uninstall jupyter kernel
+1. jupyter-kernelspec uninstall venv_name
