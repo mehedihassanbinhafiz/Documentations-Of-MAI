@@ -1,0 +1,9 @@
+1. where pip
+2. C:\Users\Mehedi\PycharmProjects\MadinaAgroFarmWebsite\venv\Scripts\pip.exe
+3. C:\Users\Mehedi\PycharmProjects\MadinaAgroFarmWebsite\venv\Scripts\pip.exe 
+4. where python
+C:\Users\Mehedi\PycharmProjects\MadinaAgroFarmWebsite\venv\Scripts\python.exe
+5. C:\Users\Mehedi\PycharmProjects\MadinaAgroFarmWebsite\venv\Scripts\python.exe -m pip uninstall pip
+6. C:\Users\Mehedi\PycharmProjects\MadinaAgroFarmWebsite\venv\Scripts\python.exe -m ensurepip
+7. C:\Users\Mehedi\PycharmProjects\MadinaAgroFarmWebsite\venv\Scripts\python.exe -m pip install --upgrade pip
+8. pip --version

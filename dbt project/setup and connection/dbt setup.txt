@@ -1,0 +1,20 @@
+0. install python 3.8
+1. create a virtual env by python
+2. pip install dbt-core dbt-snowflake
+3. dbt --version
+4. dbt init demo_dbt  # here demo_dbt is project name
+5. cd demo_dbt
+6. Provide bellow information form snowflake
+Desired authentication type option (enter a number): 1
+password (dev password):
+role (dev role): ACCOUNTADMIN
+warehouse (warehouse name): COMPUTE_WH
+database (default database that dbt will build objects in): demo_db
+schema (default schema that dbt will build objects in): PUBLIC
+threads (1 or more) [1]: 5
+
+7. check error before run:
+   bdt debug
+   All checks passed!
+6. if all check passed. execute 
+   dbt run
