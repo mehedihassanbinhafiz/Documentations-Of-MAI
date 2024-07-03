@@ -1,0 +1,18 @@
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
+jupyter contrib nbextension install --user
+
+# pip install notebook #
+first command after make venv other wise makes error
+
+## register jupyter kernel (active venv)
+python -m ipykernel install
+ipython kernel install --name myenv --user
+
+## uninstall jupyter kernel
+jupyter-kernelspec uninstall venv
+
+## ignore all jupyter checkpoint form git ##
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
