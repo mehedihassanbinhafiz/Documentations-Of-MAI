@@ -1,0 +1,5 @@
+
+pip install huggingface-hub==0.12.1 datasets
+
+
+This way of command ensures that pip resolves any dependency conflicts and installs compatible versions.
