@@ -1,0 +1,58 @@
+1. How to create env in conda?
+conda create --name myenv python=3.x
+
+2. how to activate env?
+conda activate myenv
+2.1: how to install pip?
+conda install pip
+
+3. how to install dependences?
+pip install -r requirements.txt
+
+4. how to see how many Conda environments are available on your system, you can use the following command:
+
+conda env list
+
+or alternatively:
+
+conda info --envs
+
+5. How to remove coonda env?
+
+Deactivate the current environment (if you're inside the environment you want to remove):
+
+If you're in the environment you want to remove, you first need to deactivate it:
+
+conda deactivate
+
+Remove the environment:
+
+Run the following command to remove a specific Conda environment. Replace myenv with the name of the environment you want to delete:
+
+conda env remove --name myenv
+
+This will delete the environment and all its associated packages.
+
+
+6. How to make exe using conda?
+
+Activate Your Conda Environment:
+
+First, make sure you're in the Conda environment where your Python script is set up. Activate your environment using:
+
+conda activate myenv
+
+Replace myenv with the name of your environment.
+
+Install PyInstaller:
+
+You need to install PyInstaller within your Conda environment. Run the following command:
+
+conda install pyinstaller
+
+finally: 
+
+pyinstaller --onefile your_script.py
+
+
+
