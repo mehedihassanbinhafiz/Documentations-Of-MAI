@@ -1,0 +1,34 @@
+create a Conda environment directly in the directory where you open the command prompt or terminal, you can use the --prefix flag with . (dot), which represents the current directory.
+Steps:
+
+    Open the command prompt or terminal and navigate to your desired directory (if not already there).
+
+    Run the following command:
+
+    conda create --prefix ./env_name python=3.x
+
+    Replace env_name with the desired name for your environment and 3.x with the Python version you want.
+
+Example:
+
+If you are in the directory C:\myproject and want to create an environment named venv, use:
+
+conda create --prefix ./venv python=3.8
+
+This will create the environment in C:\myproject\venv.
+Activating the Environment:
+
+To activate the environment, use:
+
+conda activate ./venv
+
+Deactivating the Environment:
+
+To deactivate, use:
+
+conda deactivate
+
+Notes:
+
+    The environment will be created in the current working directory under the folder you specify (e.g., ./venv).
+    The --prefix option ensures the environment is created in the specified path, regardless of the default Conda environment location.
