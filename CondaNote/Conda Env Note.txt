@@ -1,5 +1,5 @@
 1. How to create env in conda?
-conda create --name myenv python=3.x
+conda create --name myenv python=3.x --no-default-packages
 
 2. how to activate env?
 conda activate myenv
@@ -10,11 +10,12 @@ conda install pip
 pip install -r requirements.txt
 
 3.1 How to store packages?
+conda list --export | cut -d= -f1,2 > requirements.txt
 pip list --format=freeze > requirements.txt
 
 4. how to see how many Conda environments are available on your system, you can use the following command:
 
-conda env list
+conda env list / conda list -n myenv
 
 or alternatively:
 
