@@ -25,6 +25,10 @@ bash ./Miniconda3-latest-Linux-x86_64.sh
 
 ## 3. Install CUDA 11.8
 
+```wget https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_520.61.05_linux.run
+sudo sh cuda_11.8.0_520.61.05_linux.run
+```
+
 Make sure CUDA 11.8 is installed. Set environment variables in `~/.bashrc`:
 
 ```bash
