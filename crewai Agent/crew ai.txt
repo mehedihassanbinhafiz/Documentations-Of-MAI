@@ -1,0 +1,28 @@
+Agent in crew ai:
+
+In crewai Agent is autonomous unit that are responsible to 
+perform task, make decision, and communicate with other agent. 
+
+attribute of agent in crewAI:
+
+role --> The responsibility or what we want from this agent 
+goal --> The objective of agent
+backstory --> The backstory of the agent, small details of role and goal.
+LLM --> The brain of agent, eg: gemini, chatgpt
+function_calling_llm --> the language model that will be for  tool calling.
+allow code execution --> enable code execution for the agent, Default is false. 
+memory --> weather the agent should have memory or not.
+verbose --> gives more output to what the agent is doing behind the scenes in terminal/ or animaion
+tools --> the tools this agent can use, such as SearchTools or GitHub Tools
+
+Crew in crew ai: 
+
+tasks --> lists of tasks assigned to the crew. 
+agents --> list of agents which are part of the crew
+process --> The process flow that the crew will follow 
+manager_agent --> manager sets a custom agent that will be used as a manager. 
+verbose --> the verbosity level for login during execution, Defaults to False. 
+planning --> Adds planning ability to the Crew. When activates before each crew iteration, all crew data is sent to an dagent 
+planner that will paln the tasks and this palan will be added to each task description. 
+
+
